@@ -1,0 +1,10 @@
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "No build commands needed - using Dockerfile"
+run:
+  network:
+    port: 8080
+
