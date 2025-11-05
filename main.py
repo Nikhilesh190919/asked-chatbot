@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 import random
 
-app = FastAPI(title="AskEd API", version="1.0.0")
+app = FastAPI(title="Ecoroute AI API", version="1.0.0")
 
 # Enable CORS
 app.add_middleware(
@@ -101,7 +101,7 @@ def generate_rag_response(query: str) -> tuple[str, List[dict]]:
 
 @app.get("/")
 async def root():
-    return {"message": "AskEd API is running", "version": "1.0.0"}
+    return {"message": "Ecoroute AI API is running", "version": "1.0.0"}
 
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):

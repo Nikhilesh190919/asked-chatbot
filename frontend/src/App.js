@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="app-header">
         <div className="header-content">
-          <h1 className="app-title">AskEd</h1>
+          <h1 className="app-title">Ecoroute AI</h1>
           <p className="app-subtitle">RAG-Based AI Chatbot for University Student Services</p>
         </div>
         <nav className="nav-tabs">

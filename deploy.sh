@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # AWS App Runner Deployment Script
-# This script helps you deploy your AskEd chatbot to AWS App Runner
+# This script helps you deploy your Ecoroute AI chatbot to AWS App Runner
 
-echo "🚀 AskEd Chatbot - AWS App Runner Deployment Helper"
+echo "🚀 Ecoroute AI - AWS App Runner Deployment Helper"
 echo "=================================================="
 echo ""
 
@@ -21,14 +21,14 @@ if ! git remote | grep -q origin; then
     echo ""
     echo "STEP 1: Create a GitHub repository first:"
     echo "   1. Go to https://github.com/new"
-    echo "   2. Repository name: asked-chatbot (or your choice)"
+    echo "   2. Repository name: ecoroute-ai (or your choice)"
     echo "   3. Make it PUBLIC (required for App Runner free tier)"
     echo "   4. DO NOT initialize with README"
     echo "   5. Click 'Create repository'"
     echo ""
     read -p "Enter your GitHub username: " GITHUB_USER
-    read -p "Enter your repository name [asked-chatbot]: " REPO_NAME
-    REPO_NAME=${REPO_NAME:-asked-chatbot}
+    read -p "Enter your repository name [ecoroute-ai]: " REPO_NAME
+    REPO_NAME=${REPO_NAME:-ecoroute-ai}
     
     git remote add origin https://github.com/${GITHUB_USER}/${REPO_NAME}.git
     echo "✅ Remote added: https://github.com/${GITHUB_USER}/${REPO_NAME}.git"

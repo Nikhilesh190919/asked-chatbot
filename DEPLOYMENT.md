@@ -1,6 +1,6 @@
 # AWS App Runner Deployment Guide
 
-This guide will help you deploy your AskEd React app to AWS App Runner.
+This guide will help you deploy your Ecoroute AI React app to AWS App Runner.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ This guide will help you deploy your AskEd React app to AWS App Runner.
 
 1. Go to [GitHub](https://github.com) and sign in
 2. Click the "+" icon in the top right → "New repository"
-3. Repository name: `asked-chatbot` (or your preferred name)
+3. Repository name: `ecoroute-ai` (or your preferred name)
 4. Set visibility: **Public** (required for App Runner free tier connection)
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click "Create repository"
@@ -30,10 +30,10 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit: AskEd chatbot app"
+git commit -m "Initial commit: Ecoroute AI chatbot app"
 
 # Add your GitHub repository as remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/asked-chatbot.git
+git remote add origin https://github.com/YOUR_USERNAME/ecoroute-ai.git
 
 # Push to GitHub
 git branch -M main
@@ -65,7 +65,7 @@ git push -u origin main
    - Choose **"GitHub"**
    - Click "Connect to GitHub"
    - Authorize AWS App Runner to access your GitHub account
-   - Select your repository: `YOUR_USERNAME/asked-chatbot`
+   - Select your repository: `YOUR_USERNAME/ecoroute-ai`
    - Branch: `main`
 
 5. **Configure Deployment Settings**

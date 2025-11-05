@@ -6,7 +6,7 @@ function ChatInterface() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hello! I'm AskEd 🤖 — your AI assistant for university student services. How can I help you today?",
+      content: "Hello! I'm Ecoroute AI 🤖 — your AI assistant for university student services. How can I help you today?",
     },
   ]);
   const [input, setInput] = useState('');

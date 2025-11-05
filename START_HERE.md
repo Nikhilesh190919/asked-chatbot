@@ -16,7 +16,7 @@ Your code is **100% ready** for deployment:
 **YOU MUST DO THIS FIRST:**
 
 1. Go to: **https://github.com/new**
-2. Repository name: `asked-chatbot`
+2. Repository name: `ecoroute-ai`
 3. **Make it PUBLIC** ⚠️ (required for App Runner)
 4. **DO NOT** check "Add README" or any other options
 5. Click **"Create repository"**
@@ -37,7 +37,7 @@ The script will:
 
 **Or manually:**
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/asked-chatbot.git
+git remote add origin https://github.com/YOUR_USERNAME/ecoroute-ai.git
 git branch -M main
 git push -u origin main
 ```
@@ -52,7 +52,7 @@ git push -u origin main
 3. **Connect GitHub**:
    - Source: "Source code repository"
    - Add new → GitHub → Connect → Authorize
-   - Select: `YOUR_USERNAME/asked-chatbot`
+   - Select: `YOUR_USERNAME/ecoroute-ai`
    - Branch: `main`
    - Trigger: **Automatic**
 
@@ -61,7 +61,7 @@ git push -u origin main
    - (App Runner will auto-detect your Dockerfile)
 
 5. **Configure Service**:
-   - Name: `asked-chatbot`
+   - Name: `ecoroute-ai`
    - CPU: **0.25 vCPU** (free tier)
    - Memory: **0.5 GB** (free tier)
 

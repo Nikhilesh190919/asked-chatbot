@@ -1,4 +1,4 @@
-# AskEd – RAG-Based AI Chatbot for University Student Services
+# Ecoroute AI – RAG-Based AI Chatbot for University Student Services
 
 A full-stack AI chatbot web application built with React (frontend) and FastAPI (backend) that provides intelligent responses to university-related queries.
 
@@ -46,7 +46,7 @@ python main.py
 ## Project Structure
 
 ```
-AskEd-Chatbot/
+ecoroute-ai/
 ├── frontend/           # React application
 │   ├── src/
 │   │   ├── components/ # React components

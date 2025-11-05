@@ -4,7 +4,7 @@
 
 ### 1. Create GitHub Repository
 - Go to https://github.com/new
-- Name: `asked-chatbot`
+- Name: `ecoroute-ai`
 - Make it **PUBLIC**
 - Don't initialize with files
 - Click "Create repository"
@@ -20,7 +20,7 @@ Or manually:
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/asked-chatbot.git
+git remote add origin https://github.com/YOUR_USERNAME/ecoroute-ai.git
 git push -u origin main
 ```
 
@@ -30,7 +30,7 @@ git push -u origin main
 
 ### 4. Connect GitHub
 - Source: **Source code repository**
-- Repository: Connect GitHub → Select `asked-chatbot`
+- Repository: Connect GitHub → Select `ecoroute-ai`
 - Branch: `main`
 - Deployment: **Automatic**
 
@@ -40,7 +40,7 @@ git push -u origin main
 - **Port**: `8080`
 
 ### 6. Configure Service
-- Service name: `asked-chatbot`
+- Service name: `ecoroute-ai`
 - CPU: **0.25 vCPU** (free tier)
 - Memory: **0.5 GB** (free tier)
 - Min size: `1`
